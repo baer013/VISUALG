@@ -1,6 +1,5 @@
 Algoritmo "VALOR INICIO ATE O VALOR FINAL....."
-// Descrição   : Usaremos a Estrutura de Repetição (Enquanto)
-// Autor(a)    : Kaue Baer
+// DescriÃ§Ã£o   : Usaremos a Estrutura de RepetiÃ§Ã£o (Enquanto)
 // Data atual  : 26/04/2023
 Var
    ini,final,cont:Inteiro
@@ -8,21 +7,21 @@ Var
 
 Inicio
 
-   //Criamos um pequeno painel solicitando a entrada do número
-   //inicial e o número final.
-   //Fizemos atribuição do valor 1 para dentro da var contador
+   //Criamos um pequeno painel solicitando a entrada do nÃºmero
+   //inicial e o nÃºmero final.
+   //Fizemos atribuiÃ§Ã£o do valor 1 para dentro da var contador
    //Usamos a Estrutura Condiciona (Se) para comparar se
-   //o valor inicial digitado pelo usuário for menor ou igual
+   //o valor inicial digitado pelo usuÃ¡rio for menor ou igual
    //ao valor final digitado. Entao utilizamos a Estrutura de
-   //Repetição (Enquanto).
+   //RepetiÃ§Ã£o (Enquanto).
    //Enquanto o valor 1 do contador for menor ou igual ao valor
-   //final digitado pelo usuario, faça contador receber contador
+   //final digitado pelo usuario, faÃ§a contador receber contador
    //+ 1
-   //Senao, Se o valor do inicio digitado pelo o usuário for maior
-   //ou igual ao valor final. Faça que o valor 1 do contador
-   //receba o valor do inicio digitado pelo o usuário
+   //Senao, Se o valor do inicio digitado pelo o usuÃ¡rio for maior
+   //ou igual ao valor final. FaÃ§a que o valor 1 do contador
+   //receba o valor do inicio digitado pelo o usuÃ¡rio
    //Enquanto o valor do inicio for maior ou igual ao valor
-   //final digitado. Faça com que a variável contador receba
+   //final digitado. FaÃ§a com que a variÃ¡vel contador receba
    //contador - 1
    
    
@@ -32,9 +31,9 @@ Inicio
    Escreval("                VALOR INICIO ATE VALOR FINAL ")
    Escreval("                                      .......")
    Escreval
-   Escreva("Número Inicial: ")
+   Escreva("NÃºmero Inicial: ")
    Leia(ini)
-   Escreva("Número Final: ")
+   Escreva("NÃºmero Final: ")
    Leia(final)
    Se (ini <= final) Entao
       cont <- ini
