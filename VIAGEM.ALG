@@ -1,22 +1,21 @@
 Algoritmo "Viagem"
-// Professor   : Kaue Baer
-// Descrição   : Usaremos a Estrutura Condicional
+// DescriÃ§Ã£o   : Usaremos a Estrutura Condicional
 // Data atual  : 26/04/2023
 Var
-   //Criação da variável salario e viagem
+   //CriaÃ§Ã£o da variÃ¡vel salario e viagem
    sal:Real
    vi:Caractere
 
 Inicio
 
-   //Fizemos uma pergunta ao usuário de qual seria seu salario
+   //Fizemos uma pergunta ao usuÃ¡rio de qual seria seu salario
    //Usamos a Estrutura Condicional (Se).
    //Se o salario digitado pela pessoa do leia for menor que o valor
-   //padrão 5000 entao, escreva na tela
-   //Se o salário do usuário não for menor que 5000
+   //padrÃ£o 5000 entao, escreva na tela
+   //Se o salÃ¡rio do usuÃ¡rio nÃ£o for menor que 5000
    //pergunte para onde a viagem sera realizada
    //Novamente usaremos a Estrutura Condicional (se)
-   //Se o valor do salário digitado for maior que 5000 entao,
+   //Se o valor do salÃ¡rio digitado for maior que 5000 entao,
    //escreva a mensagem na tela
 
    Escreval
@@ -25,19 +24,19 @@ Inicio
    Escreval("             v i a g e m             ")
    Escreval("------------------------ 2023 -------")
    Escreval
-   Escreval("  Qual seu salário atual? ")
-   Escreva("  Salário: ")
+   Escreval("  Qual seu salÃ¡rio atual? ")
+   Escreva("  SalÃ¡rio: ")
    Leia(sal)
    Se (sal <5000) Entao
-      Escreval("  Desculpe, salários abaixo de R$5000 não se encaixa na passagem!")
+      Escreval("  Desculpe, salÃ¡rios abaixo de R$5000 nÃ£o se encaixa na passagem!")
     Senao
    Escreval("  Para onde deseja viajar? ")
    Escreva("  Viagem: ")
    Leia(vi)
    Fimse
    Se (sal >= 5000) Entao
-      Escreval("  Parabens, seu salário atual se encaixa a passagem!")
-      Escreva("  Faça uma boa viagem para ",vi)
+      Escreval("  Parabens, seu salÃ¡rio atual se encaixa a passagem!")
+      Escreva("  FaÃ§a uma boa viagem para ",vi)
       
    Fimse
 
