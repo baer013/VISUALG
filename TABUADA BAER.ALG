@@ -1,26 +1,25 @@
 Algoritmo "TABUADA BAER"
 // 
 //  
-// DescriÁ„o   : Utilaremos a Estrutura de RepetiÁ„o (Repita)
-// Autor(a)    : Kaue Baer
+// Descri√ß√£o   : Utilaremos a Estrutura de Repeti√ß√£o (Repita)
 // Data atual  : 26/04/2023
 Var
 
-   //CriaÁ„o da vari·vel contador, numero e soma
+   //Cria√ß√£o da vari√°vel contador, numero e soma
 
    cont,num,soma:Inteiro
 
 Inicio
 
-      //A vari·vel contador recebe o valor 1
-      //Utilizamos a Estrutura de RepetiÁ„o (repita) entao,
-      //repita o bloco de escreva, atÈ que o valor 1 da variavel
+      //A vari√°vel contador recebe o valor 1
+      //Utilizamos a Estrutura de Repeti√ß√£o (repita) entao,
+      //repita o bloco de escreva, at√© que o valor 1 da variavel
       //contador, seja maior que 10.
-      //valor 1 da vari·vel contador recebe 1 + 1
-      //Escreva na tela, o valor da vari·vel numero, "x",
+      //valor 1 da vari√°vel contador recebe 1 + 1
+      //Escreva na tela, o valor da vari√°vel numero, "x",
       //valor do contador," =", soma
       //atribuimos o valor do numero digitado pela pessoa *
-      //o contador a vari·vel soma.
+      //o contador a vari√°vel soma.
 
 
 
