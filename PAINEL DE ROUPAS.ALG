@@ -1,18 +1,17 @@
 Algoritmo "Painel de roupas"
-// Descrição   : Usaremos a Estrutural Condicional (Escolha)
-// Autor(a)    : Kaue Baee
+// DescriÃ§Ã£o   : Usaremos a Estrutural Condicional (Escolha)
 // Data atual  : 26/04/2023
 Var
-   //Criação variável ecolha do tipo inteiro
+   //CriaÃ§Ã£o variÃ¡vel ecolha do tipo inteiro
    
    esc:Inteiro
 
 Inicio
 
-   //Criação de um pequeno menu com opções a serem selecionada
+   //CriaÃ§Ã£o de um pequeno menu com opÃ§Ãµes a serem selecionada
    //Usamos a Estrutura Condicional (Enquanto) para determinar
-   //qual valor das opções seram digitados.
-   //Usamos o leia esc como uma variável de controle
+   //qual valor das opÃ§Ãµes seram digitados.
+   //Usamos o leia esc como uma variÃ¡vel de controle
    //Caso o valor 1 seja inserido, mostre na tela outro menu
    //Assim se repete ate o que o caso seja 3
    
@@ -25,8 +24,8 @@ Inicio
    Escreval
    Escreval("  Escolha; ")
    Escreval("  [1]Roupas")
-   Escreval("  [2]Calçados")
-   Escreval("  [3]Acessórios")
+   Escreval("  [2]CalÃ§ados")
+   Escreval("  [3]AcessÃ³rios")
    Leia(esc)
    Escolha (esc)
            Caso 1
@@ -39,14 +38,14 @@ Inicio
            Caso 2
            Limpatela
            Escreval("------------------------------------")
-           Escreval("            C A L Ç A D O S         ")
+           Escreval("            C A L Ã‡ A D O S         ")
            Escreval("------------------------------------")
            FimAlgoritmo
            
            Caso 3
            Limpatela
            Escreval("------------------------------------")
-           Escreval("          A C E S S Ó R I O S       ")
+           Escreval("          A C E S S Ã“ R I O S       ")
            Escreval("------------------------------------")
    FimEscolha
 
